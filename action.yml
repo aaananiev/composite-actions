@@ -8,6 +8,9 @@ inputs:
   file:
     description: 'File for deploy'
     required: true
+  GITHUB_TOKEN:
+    description: "PT"
+    required: true  
 runs:
   using: "composite"
   steps:
@@ -23,5 +26,5 @@ runs:
        -Durl="https://maven.pkg.github.com/${GITHUB_REPOSITORY}"
       shell: bash
       env:
-       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}
   
