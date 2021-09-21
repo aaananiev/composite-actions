@@ -1,6 +1,7 @@
 name: 'Hello test'
 description: 'Hello test'
-  GITHUB_TOKEN:
+inputs:
+  token:
     description: "PT"
     required: true  
 runs:
