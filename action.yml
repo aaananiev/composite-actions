@@ -10,7 +10,7 @@ runs:
     - run: |
         npm install -g eslint 
         npx eslint --init
-        npx eslint -c ${{ github.action_path }}/.eslintrc ./
+        npx eslint -c ${{ github.action_path }}/.eslintrc src/
       shell: bash
       env:
        GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}

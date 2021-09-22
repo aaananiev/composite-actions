@@ -12,17 +12,7 @@
         "complexity":["error", 10],
         "max-depth":"error"
     },
-    "overrides": [
-    {
-        "files":["src/"],
-        "rules":{
-            "yoda":"error",
-            "eqeqeq":"error",
-            "complexity":["error", 10],
-            "max-depth":"error"
-        }
-    }
-    ],
+    
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
