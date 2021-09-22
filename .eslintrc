@@ -12,11 +12,15 @@
         "complexity":["error", 10],
         "max-depth":"error"
     },
+    "overrides": [
+    {
+        "files":["src/*"]
+    }
+    ],
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
     },
-
     "env": {
         "browser": true,
         "node": true,
