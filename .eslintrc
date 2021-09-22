@@ -14,7 +14,7 @@
     },
     "overrides": [
     {
-        "files":["src/*"]
+        "files":["src/"]
     }
     ],
     "parserOptions": {
