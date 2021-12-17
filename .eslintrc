@@ -9,7 +9,7 @@
     "rules":{
         "no-mixed-spaces-and-tabs":off,
         "yoda":"error",
-        "eqeqeq":"error",
+        "eqeqeq":"off",
         "complexity":["error", 10],
         "max-depth":"error"
     },
