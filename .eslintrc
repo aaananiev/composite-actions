@@ -7,6 +7,7 @@
         "com":true
     },
     "rules":{
+        "no-mixed-spaces-and-tabs":off,
         "yoda":"error",
         "eqeqeq":"error",
         "complexity":["error", 10],
